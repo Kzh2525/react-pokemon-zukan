@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import PokemonList from './pages/PokemonList';
-import PokemonDetail from './pages/PokemonDetail';
+import PokemonList from './pages/PokemonList.tsx';
+import PokemonDetail from './pages/PokemonDetail.tsx';
 
 const App: React.FC = () => {
   return (
